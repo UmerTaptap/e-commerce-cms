@@ -8,5 +8,8 @@ module.exports = (config) => {
         '@': '/src',
       },
     },
+    server: {
+      allowedHosts: ['pnb-designs-cms-3k45z.ondigitalocean.app']
+    },
   });
 };
