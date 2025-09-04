@@ -549,18 +549,133 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    about_us_content: Schema.Attribute.Blocks;
+    about_us_heading: Schema.Attribute.String;
+    add_images: Schema.Attribute.String;
+    add_text: Schema.Attribute.String;
+    add_to_cart_button_text: Schema.Attribute.String;
+    already_have_an_account: Schema.Attribute.String;
+    back_to_home: Schema.Attribute.String;
+    color: Schema.Attribute.String;
+    color_options: Schema.Attribute.String;
+    confirm_new_password: Schema.Attribute.String;
+    contact_us_email: Schema.Attribute.String;
+    contact_us_heading: Schema.Attribute.String;
+    contact_us_phone: Schema.Attribute.String;
+    contact_us_sub_heading: Schema.Attribute.String;
+    continue_to_app: Schema.Attribute.String;
+    create_new_password_heading: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    dc_charges: Schema.Attribute.String;
+    dc_heading: Schema.Attribute.String;
+    design_cost: Schema.Attribute.String;
+    design_studio: Schema.Attribute.String;
+    dont_have_an_account: Schema.Attribute.String;
+    email_verification_heading: Schema.Attribute.String;
+    email_verified_success_heading: Schema.Attribute.String;
+    email_verified_success_text: Schema.Attribute.String;
+    enter_4_digit_code: Schema.Attribute.String;
+    enter_current_password: Schema.Attribute.String;
+    enter_email: Schema.Attribute.String;
+    enter_full_name: Schema.Attribute.String;
+    enter_new_password: Schema.Attribute.String;
+    enter_password: Schema.Attribute.String;
+    enter_phone: Schema.Attribute.String;
+    estimate_cost: Schema.Attribute.String;
+    estimated_total: Schema.Attribute.String;
+    first_section_heading: Schema.Attribute.String;
+    first_section_sub_heading: Schema.Attribute.String;
+    footer_heading: Schema.Attribute.String;
+    footer_right_reserved_text: Schema.Attribute.String;
+    footer_sub_heading: Schema.Attribute.String;
+    forgot_password: Schema.Attribute.String;
+    forgot_password_heading: Schema.Attribute.String;
+    fourth_section_heading: Schema.Attribute.String;
+    fourth_section_sub_heading: Schema.Attribute.String;
+    go_back: Schema.Attribute.String;
+    import_custom_design: Schema.Attribute.String;
+    kids_banner: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::home.home'> &
       Schema.Attribute.Private;
-    main_heading: Schema.Attribute.String;
-    main_heading_subline: Schema.Attribute.Text;
+    login: Schema.Attribute.String;
+    login_heading: Schema.Attribute.String;
+    login_now: Schema.Attribute.String;
+    men_benner: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    navbar_company_heading: Schema.Attribute.String;
+    navbar_our_services_heading: Schema.Attribute.String;
+    navbar_shownow_heading: Schema.Attribute.String;
+    need_help_hours: Schema.Attribute.Blocks;
+    need_help_hours_heading: Schema.Attribute.String;
+    one_time_setup_fees_text: Schema.Attribute.String;
+    order_active: Schema.Attribute.String;
+    order_cancelled: Schema.Attribute.String;
+    order_completed: Schema.Attribute.String;
+    order_confirmed_heading: Schema.Attribute.String;
+    order_confirmed_text: Schema.Attribute.String;
+    order_summary: Schema.Attribute.String;
+    pick_custom_design: Schema.Attribute.String;
+    price_breakdown: Schema.Attribute.String;
+    privacy_policy_heading: Schema.Attribute.String;
+    privacy_policy_text: Schema.Attribute.Blocks;
+    proceed_to_checkout: Schema.Attribute.String;
+    product: Schema.Attribute.String;
+    product_details: Schema.Attribute.String;
+    product_price: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    quantity: Schema.Attribute.String;
+    re_enter_password: Schema.Attribute.String;
+    re_entimate_cost: Schema.Attribute.String;
+    return_policy_content: Schema.Attribute.Blocks;
+    return_policy_heading: Schema.Attribute.String;
+    save: Schema.Attribute.String;
+    second_section_button_text: Schema.Attribute.String;
+    second_section_heading: Schema.Attribute.String;
+    second_section_image_one: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    second_section_image_one_heading: Schema.Attribute.String;
+    second_section_image_one_sub_heading: Schema.Attribute.String;
+    second_section_image_three: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    second_section_image_three_heading: Schema.Attribute.String;
+    second_section_image_three_sub_heading: Schema.Attribute.String;
+    second_section_image_two: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    second_section_image_two_heading: Schema.Attribute.String;
+    second_section_image_two_sub_heading: Schema.Attribute.String;
+    second_section_sub_heading: Schema.Attribute.String;
+    select_a_size_to_add: Schema.Attribute.String;
+    select_size: Schema.Attribute.String;
+    select_sizes_and_quantity: Schema.Attribute.String;
+    shipping_policy_content: Schema.Attribute.Blocks;
+    shipping_policy_heading: Schema.Attribute.String;
+    sign_up: Schema.Attribute.String;
+    sign_up_heading: Schema.Attribute.String;
+    sign_up_now: Schema.Attribute.String;
+    subtotal: Schema.Attribute.String;
+    tc_heading: Schema.Attribute.String;
+    tc_text: Schema.Attribute.Blocks;
+    third_section_heading: Schema.Attribute.String;
+    third_section_sub_heading: Schema.Attribute.String;
+    total_cost: Schema.Attribute.String;
+    total_sheets: Schema.Attribute.String;
+    update_password: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    use_template: Schema.Attribute.String;
+    women_banner: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
   };
 }
 
@@ -1019,10 +1134,13 @@ export interface PluginUsersPermissionsUser
   };
   options: {
     draftAndPublish: false;
-    timestamps: true;
   };
   attributes: {
+    admin_panel_heading: Schema.Attribute.String;
+    admin_panel_sub: Schema.Attribute.String;
     blocked: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    change_password_heading: Schema.Attribute.String;
+    change_password_sub: Schema.Attribute.String;
     confirmationToken: Schema.Attribute.String & Schema.Attribute.Private;
     confirmed: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     createdAt: Schema.Attribute.DateTime;
@@ -1039,6 +1157,17 @@ export interface PluginUsersPermissionsUser
       'plugin::users-permissions.user'
     > &
       Schema.Attribute.Private;
+    logged_out_button_text: Schema.Attribute.String;
+    logged_out_profile_content: Schema.Attribute.Blocks;
+    login_header_button: Schema.Attribute.String;
+    logout_alert_heading: Schema.Attribute.String;
+    logout_alert_no: Schema.Attribute.String;
+    logout_alert_yes: Schema.Attribute.String;
+    logout_heading: Schema.Attribute.String;
+    logout_sub: Schema.Attribute.String;
+    my_account: Schema.Attribute.String;
+    order_heading: Schema.Attribute.String;
+    orders_sub: Schema.Attribute.String;
     password: Schema.Attribute.Password &
       Schema.Attribute.Private &
       Schema.Attribute.SetMinMaxLength<{
@@ -1046,6 +1175,7 @@ export interface PluginUsersPermissionsUser
       }>;
     provider: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    quick_action_text: Schema.Attribute.String;
     resetPasswordToken: Schema.Attribute.String & Schema.Attribute.Private;
     role: Schema.Attribute.Relation<
       'manyToOne',
@@ -1060,6 +1190,7 @@ export interface PluginUsersPermissionsUser
       Schema.Attribute.SetMinMaxLength<{
         minLength: 3;
       }>;
+    welcome_text: Schema.Attribute.String;
   };
 }
 

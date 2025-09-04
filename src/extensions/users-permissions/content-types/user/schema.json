@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "up_users",
+  "info": {
+    "name": "user",
+    "description": "",
+    "singularName": "user",
+    "pluralName": "users",
+    "displayName": "User"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": true,
+      "configurable": false,
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "minLength": 6,
+      "configurable": false,
+      "required": true
+    },
+    "provider": {
+      "type": "string",
+      "configurable": false
+    },
+    "password": {
+      "type": "password",
+      "minLength": 6,
+      "configurable": false,
+      "private": true,
+      "searchable": false
+    },
+    "resetPasswordToken": {
+      "type": "string",
+      "configurable": false,
+      "private": true,
+      "searchable": false
+    },
+    "confirmationToken": {
+      "type": "string",
+      "configurable": false,
+      "private": true,
+      "searchable": false
+    },
+    "confirmed": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": false,
+      "configurable": false
+    },
+    "role": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.role",
+      "inversedBy": "users",
+      "configurable": false
+    },
+    "welcome_text": {
+      "type": "string"
+    },
+    "quick_action_text": {
+      "type": "string"
+    },
+    "order_heading": {
+      "type": "string"
+    },
+    "orders_sub": {
+      "type": "string"
+    },
+    "change_password_heading": {
+      "type": "string"
+    },
+    "change_password_sub": {
+      "type": "string"
+    },
+    "logout_heading": {
+      "type": "string"
+    },
+    "logout_sub": {
+      "type": "string"
+    },
+    "admin_panel_heading": {
+      "type": "string"
+    },
+    "admin_panel_sub": {
+      "type": "string"
+    },
+    "my_account": {
+      "type": "string"
+    },
+    "logout_alert_heading": {
+      "type": "string"
+    },
+    "logout_alert_yes": {
+      "type": "string"
+    },
+    "logout_alert_no": {
+      "type": "string"
+    },
+    "logged_out_profile_content": {
+      "type": "blocks"
+    },
+    "logged_out_button_text": {
+      "type": "string"
+    },
+    "login_header_button": {
+      "type": "string"
+    }
+  }
+}

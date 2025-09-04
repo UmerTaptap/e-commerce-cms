@@ -11,11 +11,362 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "main_heading": {
+    "first_section_heading": {
       "type": "string"
     },
-    "main_heading_subline": {
-      "type": "text"
+    "first_section_sub_heading": {
+      "type": "string"
+    },
+    "second_section_heading": {
+      "type": "string"
+    },
+    "second_section_sub_heading": {
+      "type": "string"
+    },
+    "second_section_image_one_heading": {
+      "type": "string"
+    },
+    "second_section_image_one_sub_heading": {
+      "type": "string"
+    },
+    "second_section_image_two_heading": {
+      "type": "string"
+    },
+    "second_section_image_two_sub_heading": {
+      "type": "string"
+    },
+    "second_section_image_three_heading": {
+      "type": "string"
+    },
+    "second_section_image_three_sub_heading": {
+      "type": "string"
+    },
+    "second_section_button_text": {
+      "type": "string"
+    },
+    "third_section_heading": {
+      "type": "string"
+    },
+    "third_section_sub_heading": {
+      "type": "string"
+    },
+    "fourth_section_heading": {
+      "type": "string"
+    },
+    "fourth_section_sub_heading": {
+      "type": "string"
+    },
+    "footer_heading": {
+      "type": "string"
+    },
+    "footer_sub_heading": {
+      "type": "string"
+    },
+    "about_us_heading": {
+      "type": "string"
+    },
+    "contact_us_heading": {
+      "type": "string"
+    },
+    "contact_us_sub_heading": {
+      "type": "string"
+    },
+    "contact_us_phone": {
+      "type": "string"
+    },
+    "contact_us_email": {
+      "type": "string"
+    },
+    "return_policy_heading": {
+      "type": "string"
+    },
+    "shipping_policy_heading": {
+      "type": "string"
+    },
+    "tc_heading": {
+      "type": "string"
+    },
+    "tc_text": {
+      "type": "blocks"
+    },
+    "privacy_policy_heading": {
+      "type": "string"
+    },
+    "privacy_policy_text": {
+      "type": "blocks"
+    },
+    "about_us_content": {
+      "type": "blocks"
+    },
+    "return_policy_content": {
+      "type": "blocks"
+    },
+    "shipping_policy_content": {
+      "type": "blocks"
+    },
+    "navbar_company_heading": {
+      "type": "string"
+    },
+    "navbar_shownow_heading": {
+      "type": "string"
+    },
+    "navbar_our_services_heading": {
+      "type": "string"
+    },
+    "footer_right_reserved_text": {
+      "type": "string"
+    },
+    "need_help_hours_heading": {
+      "type": "string"
+    },
+    "need_help_hours": {
+      "type": "blocks"
+    },
+    "add_to_cart_button_text": {
+      "type": "string"
+    },
+    "color_options": {
+      "type": "string"
+    },
+    "select_size": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "product_details": {
+      "type": "string"
+    },
+    "subtotal": {
+      "type": "string"
+    },
+    "dc_heading": {
+      "type": "string"
+    },
+    "dc_charges": {
+      "type": "string"
+    },
+    "proceed_to_checkout": {
+      "type": "string"
+    },
+    "estimated_total": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "order_summary": {
+      "type": "string"
+    },
+    "order_confirmed_heading": {
+      "type": "string"
+    },
+    "order_confirmed_text": {
+      "type": "string"
+    },
+    "back_to_home": {
+      "type": "string"
+    },
+    "order_active": {
+      "type": "string"
+    },
+    "order_completed": {
+      "type": "string"
+    },
+    "order_cancelled": {
+      "type": "string"
+    },
+    "update_password": {
+      "type": "string"
+    },
+    "enter_current_password": {
+      "type": "string"
+    },
+    "enter_new_password": {
+      "type": "string"
+    },
+    "confirm_new_password": {
+      "type": "string"
+    },
+    "go_back": {
+      "type": "string"
+    },
+    "design_studio": {
+      "type": "string"
+    },
+    "use_template": {
+      "type": "string"
+    },
+    "pick_custom_design": {
+      "type": "string"
+    },
+    "add_text": {
+      "type": "string"
+    },
+    "estimate_cost": {
+      "type": "string"
+    },
+    "one_time_setup_fees_text": {
+      "type": "string"
+    },
+    "product_price": {
+      "type": "string"
+    },
+    "design_cost": {
+      "type": "string"
+    },
+    "total_cost": {
+      "type": "string"
+    },
+    "re_entimate_cost": {
+      "type": "string"
+    },
+    "save": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "add_images": {
+      "type": "string"
+    },
+    "import_custom_design": {
+      "type": "string"
+    },
+    "select_sizes_and_quantity": {
+      "type": "string"
+    },
+    "select_a_size_to_add": {
+      "type": "string"
+    },
+    "price_breakdown": {
+      "type": "string"
+    },
+    "total_sheets": {
+      "type": "string"
+    },
+    "login_heading": {
+      "type": "string"
+    },
+    "dont_have_an_account": {
+      "type": "string"
+    },
+    "sign_up_now": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    },
+    "sign_up_heading": {
+      "type": "string"
+    },
+    "already_have_an_account": {
+      "type": "string"
+    },
+    "login_now": {
+      "type": "string"
+    },
+    "sign_up": {
+      "type": "string"
+    },
+    "enter_full_name": {
+      "type": "string"
+    },
+    "enter_email": {
+      "type": "string"
+    },
+    "enter_phone": {
+      "type": "string"
+    },
+    "enter_password": {
+      "type": "string"
+    },
+    "re_enter_password": {
+      "type": "string"
+    },
+    "forgot_password": {
+      "type": "string"
+    },
+    "forgot_password_heading": {
+      "type": "string"
+    },
+    "enter_4_digit_code": {
+      "type": "string"
+    },
+    "create_new_password_heading": {
+      "type": "string"
+    },
+    "email_verified_success_heading": {
+      "type": "string"
+    },
+    "email_verified_success_text": {
+      "type": "string"
+    },
+    "continue_to_app": {
+      "type": "string"
+    },
+    "email_verification_heading": {
+      "type": "string"
+    },
+    "men_benner": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "women_banner": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "kids_banner": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "second_section_image_one": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "second_section_image_two": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "second_section_image_three": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
