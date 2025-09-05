@@ -15,6 +15,9 @@ module.exports = ({ env }) => ({
       endpoint: env('DO_SPACES_ENDPOINT'), // Your DigitalOcean Spaces endpoint
       region: env('DO_SPACES_REGION'), // Your DigitalOcean region
       // Any additional configuration options
+      params: {
+        ACL: 'public-read', // 👈 important
+      },
     },
   },
 });
