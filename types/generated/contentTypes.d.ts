@@ -554,6 +554,7 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
     add_images: Schema.Attribute.String;
     add_text: Schema.Attribute.String;
     add_to_cart_button_text: Schema.Attribute.String;
+    all_products: Schema.Attribute.String;
     already_have_an_account: Schema.Attribute.String;
     back_to_home: Schema.Attribute.String;
     color: Schema.Attribute.String;
@@ -595,6 +596,8 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
     fourth_section_heading: Schema.Attribute.String;
     fourth_section_sub_heading: Schema.Attribute.String;
     go_back: Schema.Attribute.String;
+    home: Schema.Attribute.String;
+    home_sub: Schema.Attribute.String;
     import_custom_design: Schema.Attribute.String;
     kids_banner: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
@@ -628,6 +631,7 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
     product: Schema.Attribute.String;
     product_details: Schema.Attribute.String;
     product_price: Schema.Attribute.String;
+    product_sub: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     quantity: Schema.Attribute.String;
     re_enter_password: Schema.Attribute.String;
@@ -661,6 +665,8 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
     sign_up: Schema.Attribute.String;
     sign_up_heading: Schema.Attribute.String;
     sign_up_now: Schema.Attribute.String;
+    studio: Schema.Attribute.String;
+    studio_sub: Schema.Attribute.String;
     subtotal: Schema.Attribute.String;
     tc_heading: Schema.Attribute.String;
     tc_text: Schema.Attribute.Blocks;

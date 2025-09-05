@@ -367,6 +367,24 @@
         "videos",
         "audios"
       ]
+    },
+    "home": {
+      "type": "string"
+    },
+    "home_sub": {
+      "type": "string"
+    },
+    "studio": {
+      "type": "string"
+    },
+    "studio_sub": {
+      "type": "string"
+    },
+    "product_sub": {
+      "type": "string"
+    },
+    "all_products": {
+      "type": "string"
     }
   }
 }
