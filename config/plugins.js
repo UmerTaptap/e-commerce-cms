@@ -15,6 +15,7 @@ module.exports = ({ env }) => ({
       endpoint: env('DO_SPACES_ENDPOINT'), // Your DigitalOcean Spaces endpoint
       region: env('DO_SPACES_REGION'), // Your DigitalOcean region
       // Any additional configuration options
+      directory: 'pbdesigns', // Specify the custom folder for uploads
       params: {
         ACL: 'public-read', // 👈 important
       },

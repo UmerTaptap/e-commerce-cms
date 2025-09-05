@@ -670,6 +670,9 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
     subtotal: Schema.Attribute.String;
     tc_heading: Schema.Attribute.String;
     tc_text: Schema.Attribute.Blocks;
+    test_image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     third_section_heading: Schema.Attribute.String;
     third_section_sub_heading: Schema.Attribute.String;
     total_cost: Schema.Attribute.String;
